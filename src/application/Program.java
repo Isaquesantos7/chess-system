@@ -1,11 +1,9 @@
 package application;
 
-import boardGame.Position;
+import boardGame.Board;
 
 public class Program {
 	public static void main(String[] args) {
-		var pos = new Position(3,5);
-
-		System.out.println(pos);
+		var board = new Board(8,8);
 	}
 }
